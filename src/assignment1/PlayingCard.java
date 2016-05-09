@@ -64,7 +64,7 @@ public class PlayingCard implements Comparable
    public int compareTo(Object other)
    {
       PlayingCard that = (PlayingCard)other;
-      
+       System.out.println();
       if (this.rank != that.rank)
          return this.rank.compareTo(that.rank);
          
